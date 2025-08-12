@@ -1,3 +1,9 @@
 #include "../miryoku/custom_config.h"
-#include "../miryoku/mapping/63/keyboardio_preonic.h"
+#include "../miryoku/mapping/64/keyboardio_preonic.h"
 #include "../miryoku/miryoku.dtsi"
+
+/ {
+    chosen {
+        zmk,physical-layout = &ortho_layout;
+    };
+};
